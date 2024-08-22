@@ -1,0 +1,233 @@
+body {
+  /*font-family: 'Lato';*/
+  font-family: Arial ;
+  /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif; */
+}
+
+h1 {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left:0px;
+    font-weight: 400;
+    padding: 0;
+}
+
+
+
+.sidebar {
+    top: 0px;
+    width: 220px;
+    float: left;
+    position: fixed;
+    padding: 15px 15px 0 30px;
+    height: 100%
+    
+
+}
+
+.sidebar img {
+  padding-top: 15px;
+  margin: 0px;
+alt="centered image" ;
+
+
+
+}
+.sidebar a {
+    color:#6d6d78;
+    font-size: 16.7px;
+}
+.sidebar a:hover {
+    color:#000000;
+}
+
+
+.name {
+    font-size: 30px;
+    font-weight: 550;
+    color: #00264d
+
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.topbar {
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin-left: 260px;
+    padding: 15px 0 0 15px;
+    background-color: #33D4FF;
+    
+}
+
+.topbar ul {
+    list-style: none;
+    margin: 0;
+    color: #000000
+
+}
+
+.topbar a {
+  text-decoration: none;
+  color: #e2e9e9;
+}
+
+.topbar ul li {
+    display: block;
+    float: left;
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 510;
+    padding-bottom: 10px;
+    color: #f0f4f4;
+}
+
+.topbar div:hover {
+    color: #ffffff;
+    cursor: pointer;
+    /* margin-right: 50px;
+    font-size: 30px;
+    font-weight: 510;
+    padding-bottom: 10px; */ */
+
+}
+
+.topbar li.selected {
+    border-bottom: 1px solid 	#e2e9e9;
+}
+
+.maintext {
+    display: block;
+    font-size: 18px;
+    margin-left: 210px;
+    padding-left: 50px;
+    font-weight: 200;
+    width: 950px;
+    margin-top: 100px;
+    line-height: 1.4;
+
+}
+
+.courselist {
+    display: block;
+    font-size: 18px;
+    margin-left: 210px;
+    padding-left: 80px;
+	padding-top: 60px;
+    font-weight: 200;
+    width: 950px;
+    margin-top: 100px;
+    line-height: 1.4;
+
+}
+
+.maintext h1 {
+    font-weight: 500;
+      margin-top: 50px;
+      margin-bottom: 0px;
+      margin-left: 400px;
+    font-size: 30px;
+    color: #003366
+
+}
+
+
+
+.maintext h2 {
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+/* .maintext h3 {
+    font-weight: 550;
+    font-size: 28px;
+    text-align: left;
+    color:#003366;
+    margin-bottom: 5px;
+} */
+
+.maintext h3 {
+    font-weight: 550;
+    font-size: 20px;
+    text-align: left;
+    color:#ff9999;
+    margin-bottom: 8px;
+}
+
+
+.maintext b {
+    font-weight: 400;
+
+}
+
+.maintext a {
+    color: #4d66b3;
+    text-decoration: none;
+}
+
+.maintext a:hover {
+    cursor: pointer;
+    color:  #3366ff;
+}
+
+research_list ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 10px;
+
+}
+
+.research_list ul li {
+    margin-bottom: 10px;
+    max-width: 1000px;
+}
+
+.research_list table {
+  margin-bottom: 0px;
+    margin-bottom: 0px;
+    max-width: 1000px;
+}
+.research_list .content {
+    font-weight: 300;
+}
+
+.research_list .title {
+  font-size: 18px;
+  font-weight:550;
+
+}
+
+.research_list .tagcell {
+    width: 50px;
+    vertical-align: top;
+}
+
+.research_list .tag {
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 200;
+    width: 40px;
+    height: 18px;
+    line-height: 1.6;
+}
